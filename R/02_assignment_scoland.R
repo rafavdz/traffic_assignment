@@ -18,11 +18,6 @@ library(mapview)
 
 # Read data ---------------------------------------------------------------
 
-# # Travel to work areas
-# ttwa <- st_read('data/Travel_to_Work_Areas_Dec_2011/TTWA_2011_UK_BFE_V3.shp')
-# # Glasgow
-# glasgow <- ttwa %>% 
-#   filter(grepl('Glasgow', TTWA11NM))
 # OD flows
 flows <- read_csv('data/driving_flows_oa/driving_flows_oa.csv')
 # Centroids
@@ -30,16 +25,6 @@ centroids <- st_read('data/centroids/gb_oa_pwc2011.gpkg')
 
 # Read road network
 roads <- osmextract::oe_read('data/osm/scotland-latest.osm.pbf')
-
-# # Define orign and destination points -------------------------------------
-# 
-# # Subset centroids in Glasgow
-# centroids <- centroids %>% 
-#   filter(st_intersects(., glasgow, sparse = FALSE)) %>% 
-#   st_transform(4326)
-# # Subset flows in glasgow
-# flows <- flows %>% 
-#   filter(origin %in% centroids$geo_code & destination %in% centroids$geo_code )
 
 
 # OSM network to weighted street network ----------------------------------
