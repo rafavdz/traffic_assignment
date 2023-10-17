@@ -3,6 +3,8 @@
 
 This is a traffic assignment example in R. It models commuting to work in Scotland.
 
+![Traffic assignment in Scoland - All-or-nothing approach](./output/scotland_assignment.jpg)
+
 ## Sources
 
 The travel flows are summarised from the Scottish Travel Survey.
