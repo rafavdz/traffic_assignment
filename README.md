@@ -1,7 +1,7 @@
 # Traffic assginmnet in Scotland
 
 
-This is a traffic assignment example in R. It models commuting to work in Scotland.
+This repository contains a trip assignment example to work with R. It models commuting to work trips in Scotland.
 
 ![Traffic assignment in Scoland - All-or-nothing approach](./output/scotland_assignment.jpg)
 

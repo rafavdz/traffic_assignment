@@ -24,6 +24,7 @@ flows <- read_csv('data/driving_flows_oa/driving_flows_oa.csv')
 centroids <- st_read('data/centroids/gb_oa_pwc2011.gpkg')
 
 # Read road network
+# Source: https://download.geofabrik.de/europe/great-britain/scotland.html
 roads <- osmextract::oe_read('data/osm/scotland-latest.osm.pbf')
 
 
