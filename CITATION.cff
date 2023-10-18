@@ -1,4 +1,5 @@
 cff-version: 1.2.0
+type: dataset
 message: "If you use this data or code, please cite it as below."
 authors:
 - family-names: "J Rafael"
@@ -6,5 +7,5 @@ authors:
   orcid: "https://orcid.org/0000-0002-1324-1714"
 title: "Trip assignment to work in Scotland with R"
 version: 0.1.0
-date-released: 2020-10-18
+date-released: 2023-10-18
 url: "https://github.com/rafavdz/traffic_assignment"
